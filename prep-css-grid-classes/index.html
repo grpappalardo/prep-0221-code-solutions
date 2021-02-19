@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: "American Typewriter", serif;
+      color: indianred;
+    }
+
+    h3 {
+      font-family: "American Typewriter", serif;
+      color: darkolivegreen;
+    }
+
+    p {
+      font-family: Bulmer, serif;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    .images {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Indiana Jones</h1>
+    <div class="row">
+      <div class="column">
+        <img class="images" src="images/raiders.jpg" alt="Raiders">
+        <h3>Indiana Jones and the Raiders of the Lost Ark</h3>
+        <p>I am pretty sure I saw this one as a kid.</p>
+      </div>
+      <div class="column">
+        <img class="images" src="images/temple.jpg" alt="Temple">
+        <h3>Indiana Jones and the Temple of Doom</h3>
+        <p>I don't think I've seen this one.</p>
+      </div>
+      <div class="column">
+        <img class="images" src="images/crusade.png" alt="Crusade">
+        <h3>Indiana Jones and the Last Crusade</h3>
+        <p>Or this one. Movie marathon time? (I saw a certain 4th film that shall not be named.)</p>
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
