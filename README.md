@@ -1,2 +1,2 @@
 # prep-0221-code-solutions
-In Learning Fuze's February 2021 prep course, I learned introductory HTML, CSS, and JavaScript.
+Completed coding assignments for Learning Fuze's prep course, February 2021 cohort.
